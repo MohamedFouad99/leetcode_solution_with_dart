@@ -1,12 +1,32 @@
 void main() {
-  print(searchInsert([1, 3, 5, 6], 5));
+  print(searchInsert([2, 5], 1));
 }
 
 int searchInsert(List<int> nums, int target) {
-  for (int i = 0; i < nums.length; i++) {
-    if (nums[i] >= target) {
-      return i;
+  if (target < nums[0]) return 0;
+  int start = 0;
+  int end = nums.length - 1;
+  int middle = ((start + end) / 2).floor();
+
+  while (nums[middle] != target && start <= end) {
+    if (target < nums[middle]) {
+      end = middle - 1;
+    } else {
+      start = middle + 1;
     }
+    middle = ((start + end) / 2).floor();
   }
-  return nums.length;
+  if (nums[middle] == target) {
+    return middle;
+  } else if (nums[middle] <= target) {
+    return middle + 1;
+  } else {
+    return nums.length;
+  }
+  // for (int i = 0; i < nums.length; i++) {
+  //   if (nums[i] >= target) {
+  //     return i;
+  //   }
+  // }
+  // return nums.length;
 }
