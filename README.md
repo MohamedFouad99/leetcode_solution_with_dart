@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02569B,50:13B9FD,100:339933&height=200&section=header&text=LeetCode%20in%20Dart&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Clean%20%26%20runnable%20solutions%20by%20Mohamed%20Fouad&descAlignY=58&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02569B,50:13B9FD,100:339933&height=200&section=header&text=LeetCode%20in%20Dart&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Clean%20and%20runnable%20solutions%20by%20Mohamed%20Fouad&descAlignY=58&descSize=16" />
 </p>
 
 <!-- Typing Animation -->
