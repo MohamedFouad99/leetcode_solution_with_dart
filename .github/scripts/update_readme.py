@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate the auto-generated parts of README.md from the .dart files in the repo.
+"""Regenerate the auto-generated parts of README.md from the .dart files in solutions/.
 
 Runs in GitHub Actions on every push (see .github/workflows/update-readme.yml),
 so the solutions table and the "in this repo" counts never go stale.
@@ -14,6 +14,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 README = ROOT / "README.md"
+SOLUTIONS = ROOT / "solutions"
 INDEX_URL = "https://raw.githubusercontent.com/doocs/leetcode/main/solution/README_EN.md"
 
 # File names that don't match their LeetCode title (typos / short names).
@@ -63,7 +64,7 @@ def load_index():
 
 def collect(by_title, by_num):
     solved, unknown = [], []
-    for path in sorted(ROOT.glob("*.dart")):
+    for path in sorted(SOLUTIONS.glob("*.dart")):
         stem = path.stem
         m = re.match(r"^(\d+)\.", stem)
         row = None
@@ -81,7 +82,7 @@ def collect(by_title, by_num):
 
 
 def link(file):
-    return "./" + urllib.parse.quote(file)
+    return f"./{SOLUTIONS.name}/" + urllib.parse.quote(file)
 
 
 def render_badges(solved):
