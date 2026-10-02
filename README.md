@@ -17,8 +17,8 @@
 
 <!-- BADGES:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Solutions_in_this_repo-175-13B9FD?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/Easy-152-2ea44f?style=flat-square" />
+  <img src="https://img.shields.io/badge/Solutions_in_this_repo-176-13B9FD?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Easy-153-2ea44f?style=flat-square" />
   <img src="https://img.shields.io/badge/Medium-20-f0ad4e?style=flat-square" />
   <img src="https://img.shields.io/badge/Hard-3-d9534f?style=flat-square" />
 </p>
@@ -54,12 +54,12 @@ Every file is **self‑contained**: the solution plus a tiny `main()` with a sam
 <!-- REPO_STATS:START -->
 | Difficulty | Solutions |
 |:--|:--:|
-| 🟢 Easy | **152** |
+| 🟢 Easy | **153** |
 | 🟡 Medium | **20** |
 | 🔴 Hard | **3** |
-| **Total** | **175** |
+| **Total** | **176** |
 
-**Top topics:** `Array` ×115 · `String` ×54 · `Hash Table` ×43 · `Math` ×38 · `Sorting` ×31 · `Two Pointers` ×25 · `Simulation` ×14 · `Binary Search` ×12 · `Counting` ×10 · `Greedy` ×10
+**Top topics:** `Array` ×115 · `String` ×55 · `Hash Table` ×44 · `Math` ×38 · `Sorting` ×31 · `Two Pointers` ×25 · `Simulation` ×14 · `Binary Search` ×12 · `Counting` ×11 · `Greedy` ×10
 <!-- REPO_STATS:END -->
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="35" /> Run a Solution
@@ -92,7 +92,7 @@ List<int> twoSum(List<int> nums, int target) {
 
 <!-- SOLUTIONS:START -->
 <details>
-<summary><b>🟢 Easy — 152 problems</b></summary>
+<summary><b>🟢 Easy — 153 problems</b></summary>
 
 | # | Problem | Solution | Topics |
 |:--:|:--|:--:|:--|
@@ -133,6 +133,7 @@ List<int> twoSum(List<int> nums, int target) {
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Dart](./solutions/counting_bits.dart) | Bit Manipulation, Dynamic Programming |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Dart](./solutions/reverse_string.dart) | Two Pointers, String |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Dart](./solutions/intersection_of_two_arraysII.dart) | Array, Hash Table, Two Pointers |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Dart](./solutions/383.%20Ransom%20Note.dart) | Hash Table, String, Counting |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Dart](./solutions/first_unique_character_in_a_string.dart) | Queue, Hash Table, String |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Dart](./solutions/find_the_difference.dart) | Bit Manipulation, Hash Table, String |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Dart](./solutions/is_subsequence.dart) | Two Pointers, String, Dynamic Programming |
